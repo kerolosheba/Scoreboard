@@ -1,0 +1,355 @@
+html,
+body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+    position: relative;
+    width: 575px;
+    height: 385px;
+    background: #1B244A;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#home {
+        position: absolute;
+        width: 149px;
+        height: 36px;
+        left: 85px;
+        top: 68px;
+    
+        font-family: 'Verdana';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 36px;
+        /* identical to box height, or 90% */
+    
+        text-align: center;
+    
+        color: #EEEEEE;
+}
+
+#guest {
+    position: absolute;
+        width: 149px;
+        height: 36px;
+        left: 340px;
+        top: 68px;
+    
+        font-family: 'Verdana';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 36px;
+        /* identical to box height, or 90% */
+    
+        text-align: center;
+    
+        color: #EEEEEE;
+}
+
+#dhome {
+    margin-top: 35px;
+    position: absolute;
+    width: 155px;
+    height: 120px;
+    left: 82px;
+    top: 125px;
+
+    background: #080001;
+    border-radius: 5px;
+}
+
+#dguest {
+    margin-top: 35px;
+    position: absolute;
+    width: 155px;
+    height: 120px;
+    left: 337px;
+    top: 125px;
+
+    background: #080001;
+    border-radius: 5px;
+}
+
+#home-scr {
+    position: relative;
+    width: 117px;
+    height: 120px;
+    left: 21px;
+    top: -62px;
+    
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    /* or 141% */
+    
+    text-align: center;
+    
+    color: #F94F6D;
+}
+
+#guest-scr {
+    position: absolute;
+    width: 117px;
+    height: 120px;
+    left: 22px;
+    top: -62px;
+
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    /* or 141% */
+
+    text-align: center;
+
+    color: #F94F6D;
+}
+
+#hscr1 {
+    box-sizing: border-box;
+    margin-top: 25px;
+
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 82px;
+    top: 271px;
+
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+}
+
+#hb1 {
+    position: absolute;
+    width: 30px;
+    height: 25.77px;
+    left: 12%;
+    top: 12%;
+    background-color: transparent;
+    border: none;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 155% */
+
+    text-align: center;
+
+    color: #9AABD8;
+}
+
+#hscr2 {
+    box-sizing: border-box;
+    margin-top: 25px;
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 136px;
+    top: 271px;
+
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+}
+
+#hb2 {
+    position: absolute;
+    width: 30px;
+    height: 25.77px;
+    left: 12%;
+    top: 12%;
+    background-color: transparent;
+    border: none;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 155% */
+
+    text-align: center;
+
+    color: #9AABD8;
+}
+
+#hscr3 {
+    box-sizing: border-box;
+    margin-top: 25px;
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 192px;
+    top: 271px;
+
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+}
+
+#hb3 {
+    position: absolute;
+    width: 30px;
+    height: 25.77px;
+    left: 12%;
+    top: 12%;
+    background-color: transparent;
+    border: none;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 155% */
+
+    text-align: center;
+
+    color: #9AABD8;
+}
+
+#gscr1 {
+    box-sizing: border-box;
+    margin-top: 25px;
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 337px;
+    top: 271px;
+
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+}
+
+#gb1 {
+    position: absolute;
+    width: 30px;
+    height: 25.77px;
+    left: 12%;
+    top: 12%;
+    background-color: transparent;
+    border: none;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 155% */
+
+    text-align: center;
+
+    color: #9AABD8;
+}
+
+#gscr2 {
+    box-sizing: border-box;
+    margin-top: 25px;
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 391px;
+    top: 271px;
+
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+}
+
+#gb2 {
+    position: absolute;
+    width: 30px;
+    height: 25.77px;
+    left: 12%;
+    top: 12%;
+    background-color: transparent;
+    border: none;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 155% */
+
+    text-align: center;
+
+    color: #9AABD8;
+}
+
+#gscr3 {
+    box-sizing: border-box;
+    margin-top: 25px;
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 447px;
+    top: 271px;
+
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+}
+
+#gb3 {
+    position: absolute;
+    width: 30px;
+    height: 25.77px;
+    left: 12%;
+    top: 12%;
+    background-color: transparent;
+    border: none;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 155% */
+
+    text-align: center;
+
+    color: #9AABD8;
+}
+
+#reset1 {
+    box-sizing: border-box;
+    margin-top: 25px;
+    position: absolute;
+    width: 175px;
+    height: 45px;
+    left: 200px;
+    top: 330px;
+
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+}
+
+#reset {
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    left: 7.5%;
+    top: 12%;
+    background-color: transparent;
+    border: none;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 28px;
+    /* or 155% */
+
+    text-align: center;
+
+    color: #9AABD8;
+}
